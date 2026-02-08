@@ -234,32 +234,32 @@
 };
 
 &cirque_lh_listener {
-    input-processors = <&zip_xy_scaler 11 12>, <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>, <&zip_xy_to_scroll_mapper>, <&zip_click_to_right_click_mapper>, <&zip_temp_layer 14 2000>, <&zip_scroll_scaler 1 8>;
-    layer_8 {
+    input-processors = <&zip_xy_scaler 11 12>, <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>, <&zip_xy_to_scroll_mapper>, <&zip_click_to_right_click_mapper>, <&zip_temp_layer 14 200>, <&zip_scroll_scaler 1 8>;
+    layer_15 {
         layers = <LAYER_MouseSlow>;
         input-processors = <&zip_xy_scaler 5 14>, <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>, <&zip_xy_to_scroll_mapper>, <&zip_click_to_right_click_mapper>, <&zip_temp_layer 14 2000>, <&zip_scroll_scaler 1 8>;
     };
-    layer_9 {
+    layer_17 {
         layers = <LAYER_MouseWarp>;
         input-processors = <&zip_xy_scaler 13 3>, <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>, <&zip_xy_to_scroll_mapper>, <&zip_click_to_right_click_mapper>, <&zip_temp_layer 14 2000>, <&zip_scroll_scaler 1 8>;
     };
-    layer_10 {
+    layer_16 {
         layers = <LAYER_MouseFast>;
         input-processors = <&zip_xy_scaler 3 2>, <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>, <&zip_xy_to_scroll_mapper>, <&zip_click_to_right_click_mapper>, <&zip_temp_layer 14 2000>, <&zip_scroll_scaler 1 8>;
     };
 };
 
 &cirque_rh_listener {
-    input-processors = <&zip_xy_scaler 5 2>, <&zip_temp_layer 14 2000>;
-    layer_8 {
+    input-processors = <&zip_xy_scaler 5 2>, <&zip_temp_layer 14 200>;
+    layer_15 {
         layers = <LAYER_MouseSlow>;
         input-processors = <&zip_xy_scaler 1 1>, <&zip_temp_layer 14 2000>;
     };
-    layer_9 {
+    layer_17 {
         layers = <LAYER_MouseWarp>;
         input-processors = <&zip_xy_scaler 6 1>, <&zip_temp_layer 14 2000>;
     };
-    layer_10 {
+    layer_16 {
         layers = <LAYER_MouseFast>;
         input-processors = <&zip_xy_scaler 4 1>, <&zip_temp_layer 14 2000>;
     };
