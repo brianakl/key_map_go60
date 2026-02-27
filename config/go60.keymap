@@ -926,7 +926,7 @@
         AS_HT_v2_TKZ: AS_HT_v2_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <190>;
+            tapping-term-ms = <135>;
             bindings = <&AS_Shifted_v1_TKZ>, <&kp>;
             flavor = "tap-preferred";
         };
@@ -935,7 +935,7 @@
         HRM_left_index_middy_v1B_TKZ: HRM_left_index_middy_v1B_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <155>;
             bindings = <&kp>, <&HRM_left_index_tap_v1B_TKZ>;
             flavor = "tap-preferred";
             quick-tap-ms = <300>;
@@ -948,7 +948,7 @@
         HRM_left_index_pinky_v1B_TKZ: HRM_left_index_pinky_v1B_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <155>;
             bindings = <&kp>, <&HRM_left_index_tap_v1B_TKZ>;
             flavor = "tap-preferred";
             quick-tap-ms = <300>;
@@ -961,7 +961,7 @@
         HRM_left_index_ringv1_TKZ: HRM_left_index_ringv1_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <155>;
             bindings = <&kp>, <&HRM_left_index_tap_v1B_TKZ>;
             flavor = "tap-preferred";
             quick-tap-ms = <300>;
@@ -974,7 +974,7 @@
         HRM_left_index_v1B_TKZ: HRM_left_index_v1B_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <155>;
             bindings = <&HRM_left_index_hold_v1B_TKZ>, <&kp>;
             flavor = "tap-preferred";
             quick-tap-ms = <300>;
@@ -987,7 +987,7 @@
         HRM_left_middy_index_v1B_TKZ: HRM_left_middy_index_v1B_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <210>;
+            tapping-term-ms = <135>;
             bindings = <&kp>, <&HRM_left_middy_tap_v1B_TKZ>;
             flavor = "tap-preferred";
             quick-tap-ms = <300>;
@@ -1000,7 +1000,7 @@
         HRM_left_middy_pinky_v1B_TKZ: HRM_left_middy_pinky_v1B_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <210>;
+            tapping-term-ms = <135>;
             bindings = <&kp>, <&HRM_left_middy_tap_v1B_TKZ>;
             flavor = "tap-preferred";
             quick-tap-ms = <300>;
@@ -1514,12 +1514,12 @@
 
         layer_HRM_WinLinx {
             bindings = <
-            &kp EQUAL                          &kp N1                         &kp N2                                  &kp N3                           &kp N4  &kp N5                                                                                                                                                         &kp N6                            &kp N7                            &kp N8                          &kp N9                              &kp N0         &kp MINUS
-              &kp TAB                           &kp Q                          &kp W                                   &kp E                            &kp R   &kp T                                                                                                                                                          &kp Y                             &kp U                             &kp I                           &kp O                               &kp P          &kp BSLH
-              &kp ESC  &HRM_left_pinky_v1B_TKZ LGUI A  &HRM_left_ring_v1B_TKZ LALT S  &HRM_right_middy_index_v1B_TKZ LSHFT D  &HRM_left_index_v1B_TKZ LCTRL F   &kp G                                                                                                                                                          &kp H  &HRM_right_index_v1B_TKZ RCTRL J  &HRM_right_middy_v1B_TKZ RSHFT K  &HRM_right_ring_v1B_TKZ LALT L  &HRM_right_pinky_v1B_TKZ RGUI SEMI           &kp SQT
- &magic LAYER_Magic 0                           &kp Z                          &kp X                                   &kp C                            &kp V   &kp B                                                                                                                                                          &kp N                             &kp M                         &kp COMMA                         &kp DOT                            &kp FSLH  &td_LAYER_Keypad
-                                                                            &kp HOME                                &kp LEFT                        &kp RIGHT                                                                                                                                                                                                 &kp DOWN                            &kp UP                         &kp END
-                                                                                                                                                                       &thumb_v2_TKZ LAYER_Cursor BSPC  &thumb_v2_TKZ LAYER_Keypad DEL  &kp LCTRL  &kp RALT  &thumb_v2_TKZ LAYER_Mouse RET  &space_v3_TKZ LAYER_Symbol SPACE
+            &kp EQUAL                          &kp N1                         &kp N2                           &kp N3                           &kp N4  &kp N5                                                                                                                                                         &kp N6                            &kp N7                            &kp N8                          &kp N9                              &kp N0         &kp MINUS
+              &kp TAB                           &kp Q                          &kp W                            &kp E                            &kp R   &kp T                                                                                                                                                          &kp Y                             &kp U                             &kp I                           &kp O                               &kp P          &kp BSLH
+              &kp ESC  &HRM_left_pinky_v1B_TKZ LGUI A  &HRM_left_ring_v1B_TKZ LALT S  &HRM_left_middy_v1B_TKZ LSHFT D  &HRM_left_index_v1B_TKZ LCTRL F   &kp G                                                                                                                                                          &kp H  &HRM_right_index_v1B_TKZ RCTRL J  &HRM_right_middy_v1B_TKZ RSHFT K  &HRM_right_ring_v1B_TKZ LALT L  &HRM_right_pinky_v1B_TKZ RGUI SEMI           &kp SQT
+ &magic LAYER_Magic 0                           &kp Z                          &kp X                            &kp C                            &kp V   &kp B                                                                                                                                                          &kp N                             &kp M                         &kp COMMA                         &kp DOT                            &kp FSLH  &td_LAYER_Keypad
+                                                                            &kp HOME                         &kp LEFT                        &kp RIGHT                                                                                                                                                                                                 &kp DOWN                            &kp UP                         &kp END
+                                                                                                                                                                &thumb_v2_TKZ LAYER_Cursor BSPC  &thumb_v2_TKZ LAYER_Keypad DEL  &kp LCTRL  &kp RALT  &thumb_v2_TKZ LAYER_Mouse RET  &space_v3_TKZ LAYER_Symbol SPACE
             >;
         };
 
