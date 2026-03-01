@@ -250,7 +250,7 @@
 };
 
 &cirque_rh_listener {
-    input-processors = <&zip_xy_scaler 5 2>, <&zip_temp_layer 14 250>;
+    input-processors = <&zip_xy_scaler 5 2>, <&zip_temp_layer 14 175>;
     layer_15 {
         layers = <LAYER_MouseSlow>;
         input-processors = <&zip_xy_scaler 1 1>;
@@ -935,7 +935,7 @@
         HRM_left_index_middy_v1B_TKZ: HRM_left_index_middy_v1B_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <155>;
+            tapping-term-ms = <135>;
             bindings = <&kp>, <&HRM_left_index_tap_v1B_TKZ>;
             flavor = "tap-preferred";
             quick-tap-ms = <300>;
@@ -961,7 +961,7 @@
         HRM_left_index_ringv1_TKZ: HRM_left_index_ringv1_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <155>;
+            tapping-term-ms = <135>;
             bindings = <&kp>, <&HRM_left_index_tap_v1B_TKZ>;
             flavor = "tap-preferred";
             quick-tap-ms = <300>;
@@ -974,7 +974,7 @@
         HRM_left_index_v1B_TKZ: HRM_left_index_v1B_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <155>;
+            tapping-term-ms = <175>;
             bindings = <&HRM_left_index_hold_v1B_TKZ>, <&kp>;
             flavor = "tap-preferred";
             quick-tap-ms = <300>;
@@ -1026,7 +1026,7 @@
         HRM_left_middy_v1B_TKZ: HRM_left_middy_v1B_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <210>;
+            tapping-term-ms = <175>;
             bindings = <&HRM_left_middy_hold_v1B_TKZ>, <&kp>;
             flavor = "tap-preferred";
             quick-tap-ms = <300>;
@@ -1091,7 +1091,7 @@
         HRM_left_ring_index_v1B_TKZ: HRM_left_ring_index_v1B_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <240>;
+            tapping-term-ms = <200>;
             bindings = <&kp>, <&HRM_left_ring_tap_v1B_TKZ>;
             flavor = "tap-preferred";
             quick-tap-ms = <300>;
@@ -1130,7 +1130,7 @@
         HRM_left_ring_v1B_TKZ: HRM_left_ring_v1B_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <240>;
+            tapping-term-ms = <155>;
             bindings = <&HRM_left_ring_hold_v1B_TKZ>, <&kp>;
             flavor = "tap-preferred";
             quick-tap-ms = <300>;
@@ -1182,7 +1182,7 @@
         HRM_right_index_v1B_TKZ: HRM_right_index_v1B_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <175>;
             bindings = <&HRM_right_index_hold_v1B_TKZ>, <&kp>;
             flavor = "tap-preferred";
             quick-tap-ms = <300>;
@@ -1234,7 +1234,7 @@
         HRM_right_middy_v1B_TKZ: HRM_right_middy_v1B_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <210>;
+            tapping-term-ms = <175>;
             bindings = <&HRM_right_middy_hold_v1B_TKZ>, <&kp>;
             flavor = "tap-preferred";
             quick-tap-ms = <300>;
@@ -1338,7 +1338,7 @@
         HRM_right_ring_v1B_TKZ: HRM_right_ring_v1B_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <240>;
+            tapping-term-ms = <200>;
             bindings = <&HRM_right_ring_hold_v1B_TKZ>, <&kp>;
             flavor = "tap-preferred";
             quick-tap-ms = <300>;
@@ -1351,7 +1351,7 @@
         space_v3_TKZ: space_v3_TKZ {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <155>;
             bindings = <&mo>, <&kp>;
             flavor = "balanced";
             quick-tap-ms = <150>;
